@@ -12,3 +12,5 @@ KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:22.0.0 start-dev
 ```
 Create a new realm named Test. Create a new client and configure the Client ID to be: juice, set Client authentication to
 On, and set the valid redirect URL to https://juice.bigtechdojo.com:443/_codexch
+
+![image](https://github.com/michelangelodorado/oidc-nginx-nms/assets/102953584/2d4694c0-0e20-4b5f-b3fa-473acab76682)
