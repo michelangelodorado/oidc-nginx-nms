@@ -21,3 +21,11 @@ the user will have to change it on first login.
 Browse to http://10.1.1.9:8080/realms/test/.well-known/openid-configuration
 
 ![image](https://github.com/michelangelodorado/oidc-nginx-nms/assets/102953584/30155368-88b4-48ed-bbae-d152e0299e02)
+
+OIDC Configuration
+On the Juice Gateway, configure the OIDC template as follows:
+
+| OIDC Setting  | Value |
+| ------------- | ------------- |
+| OIDC Authorize Endpoint  | http://10.1.1.9:8080/realms/test/protocol/openid-connect/auth  |
+| Content Cell  | Content Cell  |
