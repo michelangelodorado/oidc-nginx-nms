@@ -28,4 +28,7 @@ On the Juice Gateway, configure the OIDC template as follows:
 | OIDC Setting  | Value |
 | ------------- | ------------- |
 | OIDC Authorize Endpoint  | http://10.1.1.9:8080/realms/test/protocol/openid-connect/auth  |
-| Content Cell  | Content Cell  |
+| OIDC Token Endpoint  | http://10.1.1.9:8080/realms/test/protocol/openid-connect/token  |
+| OIDC JWKS URI  | http://10.1.1.9:8080/realms/test/openid-connect/certs  |
+| Client ID | juice |
+| Client Secret | WoWs70m1DXKLRbBxL4CSqi2KmWpaAQ0L |
