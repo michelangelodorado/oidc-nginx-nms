@@ -14,3 +14,10 @@ Create a new realm named Test. Create a new client and configure the Client ID t
 On, and set the valid redirect URL to https://juice.bigtechdojo.com:443/_codexch
 
 ![image](https://github.com/michelangelodorado/oidc-nginx-nms/assets/102953584/2d4694c0-0e20-4b5f-b3fa-473acab76682)
+
+Go to users, add user juice-developer, click Credentials, set password to juice-developer and turn off Temporary or else
+the user will have to change it on first login.
+
+Browse to http://10.1.1.9:8080/realms/test/.well-known/openid-configuration
+
+![image](https://github.com/michelangelodorado/oidc-nginx-nms/assets/102953584/30155368-88b4-48ed-bbae-d152e0299e02)
